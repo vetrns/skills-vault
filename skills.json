@@ -1,0 +1,182 @@
+{
+  "$schema": "https://github.com/vetrns/skills-vault",
+  "name": "skills-vault",
+  "repo": "https://github.com/vetrns/skills-vault",
+  "description": "A curated, continuously-updated vault of Claude Skills and general agent skills — organized by category, with a single script to install all of them globally in one shot.",
+  "install_script": "install-skills.sh",
+  "install_cli": "npx skills add <owner>/<repo> -g -y",
+  "last_updated": "2026-08",
+  "categories": [
+    {
+      "id": "core-official",
+      "name": "Core / Official",
+      "repos": [
+        {
+          "owner": "anthropics",
+          "repo": "skills",
+          "url": "https://github.com/anthropics/skills",
+          "new": false
+        }
+      ]
+    },
+    {
+      "id": "agents-meta-productivity",
+      "name": "Agents & Meta / Productivity",
+      "repos": [
+        { "owner": "mksglu", "repo": "context-mode", "url": "https://github.com/mksglu/context-mode", "new": false },
+        { "owner": "vercel-labs", "repo": "skills", "url": "https://github.com/vercel-labs/skills", "new": false },
+        { "owner": "vercel-labs", "repo": "agent-browser", "url": "https://github.com/vercel-labs/agent-browser", "new": false },
+        { "owner": "garrytan", "repo": "gstack", "url": "https://github.com/garrytan/gstack", "new": false },
+        { "owner": "intellectronica", "repo": "agent-skills", "url": "https://github.com/intellectronica/agent-skills", "new": false },
+        { "owner": "juliusbrussee", "repo": "caveman", "url": "https://github.com/juliusbrussee/caveman", "new": false },
+        { "owner": "dietrichgebert", "repo": "ponytail", "url": "https://github.com/dietrichgebert/ponytail", "new": false },
+        { "owner": "Leonxlnx", "repo": "taste-skill", "url": "https://github.com/Leonxlnx/taste-skill", "new": false },
+        { "owner": "obra", "repo": "superpowers", "url": "https://github.com/obra/superpowers", "new": true, "stars": "85K" }
+      ]
+    },
+    {
+      "id": "code-dev",
+      "name": "Code & Dev",
+      "repos": [
+        { "owner": "addyosmani", "repo": "agent-skills", "url": "https://github.com/addyosmani/agent-skills", "new": false },
+        { "owner": "mattpocock", "repo": "skills", "url": "https://github.com/mattpocock/skills", "new": false },
+        { "owner": "vercel-labs", "repo": "agent-skills", "url": "https://github.com/vercel-labs/agent-skills", "new": false },
+        { "owner": "supabase", "repo": "agent-skills", "url": "https://github.com/supabase/agent-skills", "new": false },
+        { "owner": "xixu-me", "repo": "skills", "url": "https://github.com/xixu-me/skills", "new": false },
+        { "owner": "vercel-labs", "repo": "next-skills", "url": "https://github.com/vercel-labs/next-skills", "new": false },
+        { "owner": "firebase", "repo": "agent-skills", "url": "https://github.com/firebase/agent-skills", "new": false },
+        { "owner": "stripe", "repo": "ai", "url": "https://github.com/stripe/ai", "new": false },
+        { "owner": "neondatabase", "repo": "agent-skills", "url": "https://github.com/neondatabase/agent-skills", "new": false },
+        { "owner": "antfu", "repo": "skills", "url": "https://github.com/antfu/skills", "new": false },
+        { "owner": "wshobson", "repo": "agents", "url": "https://github.com/wshobson/agents", "new": true, "stars": "37K" },
+        { "owner": "yamadashy", "repo": "repomix", "url": "https://github.com/yamadashy/repomix", "new": true, "stars": "21K" },
+        { "owner": "CloudAI-X", "repo": "threejs-skills", "url": "https://github.com/CloudAI-X/threejs-skills", "new": true, "stars": "2.4K" }
+      ]
+    },
+    {
+      "id": "science-research",
+      "name": "Science & Research",
+      "repos": [
+        { "owner": "K-Dense-AI", "repo": "scientific-agent-skills", "url": "https://github.com/K-Dense-AI/scientific-agent-skills", "new": false },
+        { "owner": "lllllllama", "repo": "ai-paper-reproduction-skill", "url": "https://github.com/lllllllama/ai-paper-reproduction-skill", "new": false }
+      ]
+    },
+    {
+      "id": "design-ui",
+      "name": "Design & UI",
+      "repos": [
+        { "owner": "nextlevelbuilder", "repo": "ui-ux-pro-max-skill", "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill", "new": false },
+        { "owner": "sleekdotdesign", "repo": "agent-skills", "url": "https://github.com/sleekdotdesign/agent-skills", "new": false },
+        { "owner": "shadcn-ui", "repo": "ui", "url": "https://github.com/shadcn-ui/ui", "new": false, "note": "Corrected link — actual repo is shadcn-ui/ui, not shadcn/ui" },
+        { "owner": "arvindrk", "repo": "extract-design-system", "url": "https://github.com/arvindrk/extract-design-system", "new": false },
+        { "owner": "emilkowalski", "repo": "skill", "url": "https://github.com/emilkowalski/skill", "new": false },
+        { "owner": "emilkowalski", "repo": "skills", "url": "https://github.com/emilkowalski/skills", "new": true, "stars": "216.7K" },
+        { "owner": "figma", "repo": "mcp-server-guide", "url": "https://github.com/figma/mcp-server-guide", "new": true, "stars": "1.9K" }
+      ]
+    },
+    {
+      "id": "media-creative",
+      "name": "Media & Creative",
+      "repos": [
+        { "owner": "nutlope", "repo": "hallmark", "url": "https://github.com/nutlope/hallmark", "new": false },
+        { "owner": "pbakaus", "repo": "impeccable", "url": "https://github.com/pbakaus/impeccable", "new": false },
+        { "owner": "remotion-dev", "repo": "skills", "url": "https://github.com/remotion-dev/skills", "new": false },
+        { "owner": "agentspace-so", "repo": "runcomfy-agent-skills", "url": "https://github.com/agentspace-so/runcomfy-agent-skills", "new": false },
+        { "owner": "heygen-com", "repo": "hyperframes", "url": "https://github.com/heygen-com/hyperframes", "new": false },
+        { "owner": "google-labs-code", "repo": "stitch-skills", "url": "https://github.com/google-labs-code/stitch-skills", "new": false },
+        { "owner": "alchaincyf", "repo": "huashu-design", "url": "https://github.com/alchaincyf/huashu-design", "new": false },
+        { "owner": "jimliu", "repo": "baoyu-skills", "url": "https://github.com/jimliu/baoyu-skills", "new": false },
+        { "owner": "greensock", "repo": "gsap-skills", "url": "https://github.com/greensock/gsap-skills", "new": false }
+      ]
+    },
+    {
+      "id": "marketing-seo-growth",
+      "name": "Marketing, SEO & Growth",
+      "repos": [
+        { "owner": "scrapegraphai", "repo": "just-scrape", "url": "https://github.com/scrapegraphai/just-scrape", "new": false },
+        { "owner": "coreyhaines31", "repo": "marketingskills", "url": "https://github.com/coreyhaines31/marketingskills", "new": false },
+        { "owner": "addyosmani", "repo": "web-quality-skills", "url": "https://github.com/addyosmani/web-quality-skills", "new": false },
+        { "owner": "aaron-he-zhu", "repo": "seo-geo-claude-skills", "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills", "new": false },
+        { "owner": "tavily-ai", "repo": "skills", "url": "https://github.com/tavily-ai/skills", "new": false },
+        { "owner": "charlie947", "repo": "social-media-skills", "url": "https://github.com/charlie947/social-media-skills", "new": false },
+        { "owner": "AgriciDaniel", "repo": "claude-seo", "url": "https://github.com/AgriciDaniel/claude-seo", "new": true, "stars": "14.2K" },
+        { "owner": "blader", "repo": "humanizer", "url": "https://github.com/blader/humanizer", "new": true, "stars": "11.3K" }
+      ]
+    }
+  ],
+  "validation_report": {
+    "description": "Research validation of 111 additional skills from the skills.sh catalog, cross-checked for a real GitHub repo with ≥1,000 stars. 8 repos that passed validation were merged into the categories above (marked new: true).",
+    "source_file": "skills.sh",
+    "total_candidates": 111,
+    "period": "2026-08",
+    "status_legend": {
+      "confirmed": "Clear GitHub repo found, ≥1K stars verified",
+      "approx": "Closest matching repo found (generic skill name or part of a larger package), ≥1K stars but not a perfect 1:1 match",
+      "below_1k": "Repo clearly found but under 1,000 stars",
+      "not_found": "No single representative GitHub repo found — mostly generic skills.sh concept names with no specific matching project"
+    },
+    "below_1k_stars": [
+      { "skill_name": "remotion-superpowers / Remotion.skill", "repo": "DojoCodingLabs/remotion-superpowers", "url": "https://github.com/DojoCodingLabs/remotion-superpowers", "stars": 45 },
+      { "skill_name": "GPT Image 2.Skill", "repo": null, "url": null, "stars": 0, "note": "Fragmented nano-banana ecosystem, no repo ≥1K found" },
+      { "skill_name": "nano-banana", "repo": null, "url": null, "stars": 0, "note": "Highly fragmented, many small repos by different authors, none ≥1K" },
+      { "skill_name": "AThevon/genjutsu", "repo": "AThevon/genjutsu", "url": "https://github.com/AThevon/genjutsu", "stars": 270 },
+      { "skill_name": "prisma-database-setup", "repo": "prisma/skills", "url": "https://github.com/prisma/skills", "stars": 53 },
+      { "skill_name": "neon-postgres", "repo": "neondatabase/agent-skills", "url": "https://github.com/neondatabase/agent-skills", "stars": 82 },
+      { "skill_name": "notebooklm-skill / NotebookLLM.skill", "repo": "claude-world/notebooklm-skill", "url": "https://github.com/claude-world/notebooklm-skill", "stars": 413 }
+    ],
+    "not_found_by_category": {
+      "UI/UX, Frontend & Design Systems": ["typeui", "Nothing Design Skill", "design-auditor / Design Auditor.skill / design review / review", "Awesome Design Skills", "uxdesingner szilu", "designer-skills"],
+      "Motion, Animation, 3D & Generative Art": ["design-motion / motion-design-skill", "claude-remotion", "blender-motion", "ae-motion", "img2threejs", "Claudedesignskills", "Drawn Diagrams", "banana-claude"],
+      "System Architecture, Agentic AI & Prompt Engineering": ["generative-ui", "progressive-reveal", "frustration-checks", "feedback-loops", "system-structure", "persona-architecture / tone-calibration", "emotional-design", "template-design / few-shot-patterns", "chain-of-thought", "constraint-spec / guardrails", "trust-calibration / transparency-patterns", "quality-rubrics", "task-decomposition / handoff-protocols", "token-budgets / turn-repair", "Antfu's Skills", "gstack", "claudemem"],
+      "Content, Marketing, Social Media & Branding": ["slide-decks", "CRO / Marketing Psychology", "Ad Creative / Competitive Ads", "Social Media OS / Tweetclaw.skill / Twitter Optimizer / Social", "Copywriting / Beautiful Prose.skill / Kim Barrett suite.skill", "Content Strategy / Pillar Content", "Video / Reels Scripting.skill / AI Video Toolkit", "Email Sequences / Email Marketing", "YouTube Thumbnail / Hook Generator.skill", "Voice Builder.skill", "Post Scorer.skill", "X Article Publisher", "Color Expert.skill", "Wondelai.Skills / Marketing Module / Marketing.Skills / marketingskills"],
+      "Research, Knowledge Base & Document Processing": ["ai-second-brain", "autoresearch / Autoresearch.skill", "Deep Research / SM Research.skill / Academic Research", "Evidence dialogue", "Vexor Search / file search", "Web Scraper.skill / hyperbrowser", "Daydream.skill / brainstorming / doc-coauthoring"],
+      "Finance, Product Management, Legal & Operations": ["DCF Model / 3-Statements / LBO Model / Comps Analysis", "Pricing / Pitch Deck / Business Case", "SOP Builder / Incident Postmortem / Launch Runbook", "Internal Comms", "Contract Review / NDA Triage / Legal Risk / Compliance", "PM Skills / JTBD Interview Tool", "AI Transformation", "Generative Media / AI Music Album", "aps store / Task Observer / ponytail / scroll-world / EST"]
+    },
+    "confirmed_and_approx": [
+      { "category": "UI/UX, Frontend & Design Systems", "skill_name": "frontend-design / frontend-design.skill", "repo": "anthropics/skills", "url": "https://github.com/anthropics/skills", "stars": "171.4K", "status": "confirmed" },
+      { "category": "UI/UX, Frontend & Design Systems", "skill_name": "impeccable / impaccable", "repo": "pbakaus/impeccable", "url": "https://github.com/pbakaus/impeccable", "stars": "61.1K", "status": "confirmed" },
+      { "category": "UI/UX, Frontend & Design Systems", "skill_name": "theme-factory / theme factory", "repo": "anthropics/skills", "url": "https://github.com/anthropics/skills", "stars": "171.4K", "status": "confirmed" },
+      { "category": "UI/UX, Frontend & Design Systems", "skill_name": "figma-implement", "repo": "figma/mcp-server-guide", "url": "https://github.com/figma/mcp-server-guide", "stars": "1.9K", "status": "confirmed" },
+      { "category": "UI/UX, Frontend & Design Systems", "skill_name": "figma-mcp", "repo": "figma/mcp-server-guide", "url": "https://github.com/figma/mcp-server-guide", "stars": "1.9K", "status": "confirmed" },
+      { "category": "UI/UX, Frontend & Design Systems", "skill_name": "hi-fi-mockups", "repo": "figma/mcp-server-guide", "url": "https://github.com/figma/mcp-server-guide", "stars": "1.9K", "status": "approx" },
+      { "category": "UI/UX, Frontend & Design Systems", "skill_name": "canvas-design / Canvas Design.skill", "repo": "anthropics/skills", "url": "https://github.com/anthropics/skills", "stars": "171.4K", "status": "confirmed" },
+      { "category": "UI/UX, Frontend & Design Systems", "skill_name": "shadcn/ui / shadcn-ui", "repo": "shadcn-ui/ui", "url": "https://github.com/shadcn-ui/ui", "stars": "120.8K", "status": "confirmed" },
+      { "category": "UI/UX, Frontend & Design Systems", "skill_name": "uiuxpromax", "repo": "nextlevelbuilder/ui-ux-pro-max-skill", "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill", "stars": "120.6K", "status": "confirmed" },
+      { "category": "UI/UX, Frontend & Design Systems", "skill_name": "emil-design-eng", "repo": "emilkowalski/skills", "url": "https://github.com/emilkowalski/skills", "stars": "216.7K", "status": "confirmed" },
+      { "category": "Motion, Animation, 3D & Generative Art", "skill_name": "taste-skill / taste", "repo": "Leonxlnx/taste-skill", "url": "https://github.com/Leonxlnx/taste-skill", "stars": "59.4K", "status": "confirmed" },
+      { "category": "Motion, Animation, 3D & Generative Art", "skill_name": "animate", "repo": "emilkowalski/skills", "url": "https://github.com/emilkowalski/skills", "stars": "216.7K", "status": "confirmed" },
+      { "category": "Motion, Animation, 3D & Generative Art", "skill_name": "hyperframes", "repo": "heygen-com/hyperframes", "url": "https://github.com/heygen-com/hyperframes", "stars": "34.9K", "status": "confirmed" },
+      { "category": "Motion, Animation, 3D & Generative Art", "skill_name": "emil kowalski animation", "repo": "emilkowalski/skills", "url": "https://github.com/emilkowalski/skills", "stars": "216.7K", "status": "approx" },
+      { "category": "Motion, Animation, 3D & Generative Art", "skill_name": "threejs-skills / three.js skills", "repo": "CloudAI-X/threejs-skills", "url": "https://github.com/CloudAI-X/threejs-skills", "stars": "2.4K", "status": "confirmed" },
+      { "category": "Motion, Animation, 3D & Generative Art", "skill_name": "gsap-skills / greensock/gsap-skills", "repo": "greensock/gsap-skills", "url": "https://github.com/greensock/gsap-skills", "stars": "9.2K", "status": "confirmed" },
+      { "category": "Motion, Animation, 3D & Generative Art", "skill_name": "algorithmic-art / Algorithmic Art.skill / Algortimic ART", "repo": "anthropics/skills", "url": "https://github.com/anthropics/skills", "stars": "171.4K", "status": "confirmed" },
+      { "category": "Full-Stack Development, Backend & DevOps", "skill_name": "typescript-advanced-types", "repo": "wshobson/agents", "url": "https://github.com/wshobson/agents", "stars": "37K", "status": "confirmed" },
+      { "category": "Full-Stack Development, Backend & DevOps", "skill_name": "nodejs-backend-patterns", "repo": "wshobson/agents", "url": "https://github.com/wshobson/agents", "stars": "37K", "status": "confirmed" },
+      { "category": "Full-Stack Development, Backend & DevOps", "skill_name": "nextjs-app-router-patterns / next.js", "repo": "wshobson/agents", "url": "https://github.com/wshobson/agents", "stars": "37K", "status": "confirmed" },
+      { "category": "Full-Stack Development, Backend & DevOps", "skill_name": "api-design-principles", "repo": "wshobson/agents", "url": "https://github.com/wshobson/agents", "stars": "37K", "status": "confirmed" },
+      { "category": "Full-Stack Development, Backend & DevOps", "skill_name": "python-performance-optimization", "repo": "wshobson/agents", "url": "https://github.com/wshobson/agents", "stars": "37K", "status": "confirmed" },
+      { "category": "Full-Stack Development, Backend & DevOps", "skill_name": "python-testing-patterns", "repo": "wshobson/agents", "url": "https://github.com/wshobson/agents", "stars": "37K", "status": "confirmed" },
+      { "category": "Full-Stack Development, Backend & DevOps", "skill_name": "golang-code-style", "repo": "wshobson/agents", "url": "https://github.com/wshobson/agents", "stars": "37K", "status": "approx" },
+      { "category": "Full-Stack Development, Backend & DevOps", "skill_name": "golang-testing", "repo": "wshobson/agents", "url": "https://github.com/wshobson/agents", "stars": "37K", "status": "approx" },
+      { "category": "Full-Stack Development, Backend & DevOps", "skill_name": "rust-async-patterns", "repo": "wshobson/agents", "url": "https://github.com/wshobson/agents", "stars": "37K", "status": "confirmed" },
+      { "category": "Full-Stack Development, Backend & DevOps", "skill_name": "mattpacko/improve-codebase-architecture", "repo": "mattpocock/skills", "url": "https://github.com/mattpocock/skills", "stars": "143K", "status": "confirmed" },
+      { "category": "Full-Stack Development, Backend & DevOps", "skill_name": "Stack Integrations (convex, clerk, posthog)", "repo": "wshobson/agents", "url": "https://github.com/wshobson/agents", "stars": "37K", "status": "approx" },
+      { "category": "Full-Stack Development, Backend & DevOps", "skill_name": "better-auth-best-practices", "repo": "wshobson/agents", "url": "https://github.com/wshobson/agents", "stars": "37K", "status": "confirmed" },
+      { "category": "Full-Stack Development, Backend & DevOps", "skill_name": "webapp-testing / systematic debugging", "repo": "anthropics/skills", "url": "https://github.com/anthropics/skills", "stars": "171.4K", "status": "confirmed" },
+      { "category": "Full-Stack Development, Backend & DevOps", "skill_name": "security-review / codereview", "repo": "anthropics/skills", "url": "https://github.com/anthropics/skills", "stars": "171.4K", "status": "approx" },
+      { "category": "Full-Stack Development, Backend & DevOps", "skill_name": "setup-pre-commit / deploy-to-vercel", "repo": "obra/superpowers", "url": "https://github.com/obra/superpowers", "stars": "85K", "status": "approx" },
+      { "category": "Full-Stack Development, Backend & DevOps", "skill_name": "SQL Queries", "repo": "wshobson/agents", "url": "https://github.com/wshobson/agents", "stars": "37K", "status": "confirmed" },
+      { "category": "System Architecture, Agentic AI & Prompt Engineering", "skill_name": "playwright-mcp / agent-browser / dev browser", "repo": "microsoft/playwright-mcp", "url": "https://github.com/microsoft/playwright-mcp", "stars": "0", "status": "approx" },
+      { "category": "System Architecture, Agentic AI & Prompt Engineering", "skill_name": "mcp-builder / mcp builder", "repo": "anthropics/skills", "url": "https://github.com/anthropics/skills", "stars": "171.4K", "status": "confirmed" },
+      { "category": "System Architecture, Agentic AI & Prompt Engineering", "skill_name": "superpowers.skill / superpower", "repo": "obra/superpowers", "url": "https://github.com/obra/superpowers", "stars": "85K", "status": "confirmed" },
+      { "category": "System Architecture, Agentic AI & Prompt Engineering", "skill_name": "repomix.skill", "repo": "yamadashy/repomix", "url": "https://github.com/yamadashy/repomix", "stars": "21K", "status": "confirmed" },
+      { "category": "System Architecture, Agentic AI & Prompt Engineering", "skill_name": "skillcreator / skill creator / Skill Seekers.skill / find skill", "repo": "anthropics/skills", "url": "https://github.com/anthropics/skills", "stars": "171.4K", "status": "confirmed" },
+      { "category": "System Architecture, Agentic AI & Prompt Engineering", "skill_name": "no-ai-slop", "repo": "anthropics/skills", "url": "https://github.com/anthropics/skills", "stars": "171.4K", "status": "approx" },
+      { "category": "System Architecture, Agentic AI & Prompt Engineering", "skill_name": "webartifact builder / web artifact builder / transition.dev", "repo": "anthropics/skills", "url": "https://github.com/anthropics/skills", "stars": "171.4K", "status": "confirmed" },
+      { "category": "Content, Marketing, Social Media & Branding", "skill_name": "brandkit / brandkit-sync / brand guideline", "repo": "anthropics/skills", "url": "https://github.com/anthropics/skills", "stars": "171.4K", "status": "confirmed" },
+      { "category": "Content, Marketing, Social Media & Branding", "skill_name": "SEO Audit / Programmatic SEO / AI SEO / claude-seo / GEO/SEO Claude", "repo": "AgriciDaniel/claude-seo", "url": "https://github.com/AgriciDaniel/claude-seo", "stars": "14.2K", "status": "confirmed" },
+      { "category": "Content, Marketing, Social Media & Branding", "skill_name": "humanizer / huminizer / Humanizer.skill", "repo": "blader/humanizer", "url": "https://github.com/blader/humanizer", "stars": "11.3K", "status": "confirmed" },
+      { "category": "Research, Knowledge Base & Document Processing", "skill_name": "XLSX / DOCX / pdfskill / pptx / xlsx pdf docx pptx", "repo": "anthropics/skills", "url": "https://github.com/anthropics/skills", "stars": "171.4K", "status": "confirmed" }
+    ]
+  }
+}
